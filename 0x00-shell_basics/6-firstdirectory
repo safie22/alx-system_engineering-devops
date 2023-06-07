@@ -1,2 +1,2 @@
-#!/bin/push
+#!/bin/bush
 mkdir -m 777  /tmp/my_first_directory/
