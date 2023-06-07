@@ -1,2 +1,2 @@
 #!/bin/push
-mkdir -m /tmp/my_first_directory/
+mkdir -m 777  /tmp/my_first_directory/
