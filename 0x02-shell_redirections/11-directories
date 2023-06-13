@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x dircount.sh./dircount.sh
+find . -mindepth 1 -type d | wc -l
