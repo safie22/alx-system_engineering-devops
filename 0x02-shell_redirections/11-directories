@@ -1,14 +1,2 @@
 #!/bin/bash
-
-# Initialize a counter for the number of directories
-dir_count=0
-
-# Find all directories and sub-directories (including hidden ones) in the current directory
-# but exclude the current and parent directories
-for d in $(find . -mindepth 1 -maxdepth 1 -type d -name '.*' -o -type d -not -name '.' -not -name '..'); do
-  # Increment the directory counter
-  ((dir_count++))
-done
-
-# Print the final count of directories (excluding the current and parent directories)
-echo "There are $dir_count directories (excluding the current and parent directories) in the current directory."
+chmod +x dircount.sh./dircount.sh
